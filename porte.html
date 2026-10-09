@@ -1,9 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <title>Lares & Patinhas - Raças e Portes</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -11,20 +12,13 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="css/styles.css" />
   </head>
+
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Lares & Patinhas</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html"> Lares & Patinhas </a>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -32,117 +26,161 @@
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
-          aria-label="Toggle navigation"
+          aria-label="Abrir menu de navegação"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+              <a class="nav-link" href="index.html">Início</a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="sobre.html">Sobre a adoção</a>
+              <a class="nav-link" href="sobre.html"> Sobre a adoção </a>
             </li>
+
             <li class="nav-item">
               <a class="nav-link" href="porte.html">Portes</a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="raças.html">Raças</a>
+              <a class="nav-link active" aria-current="page" href="raças.html">
+                Raças
+              </a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="idade-nomes.html">Idades e Nomes</a>
+              <a class="nav-link" href="idade-nomes.html"> Idades e Nomes </a>
             </li>
-              
+          </ul>
+        </div>
+      </div>
     </nav>
-    <div class="container"></div>
-    <table class="table">
-      <thead>
-        <tr>
-          <th scope="col">Raça</th>
-          <th scope="col">Altura</th>
-          <th scope="col">Peso</th>
-          <th scope="col">Corpo</th>
-          <th scope="col">Porte</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">Golden Retriever</th>
-          <td>51-61 cm</td>
-          <td>25-34 kg</td>
-          <td>forte, musculoso e bem apropriado</td>
-          <td>médio-grande</td>
-        </tr>
-        <tr>
-          <th scope="row">Schnauzer Miniatura</th>
-          <td>30–36 cm</td>
-          <td>5–9 kg</td>
-          <td>corpo pequeno, compacto e robusto</td>
-          <td>pequeno</td>
-        </tr>
-        <tr>
-          <th scope="row">Schnauzer Standard</th>
-          <td>45–50 cm</td>
-          <td>14–23 kg</td>
-          <td>corpo médio, forte e bem proporcionado</td>
-          <td>médio</td>
-        </tr>
-        <tr>
-          <th scope="row">Schnauzer Gigante</th>
-          <td>60–70 cm</td>
-          <td>25–48 kg</td>
-          <td>corpo grande, musculoso e mais imponente</td>
-          <td>grande</td>
-        </tr>
-        <tr>
-          <th scope="row">Maine Coon</th>
-          <td>25–40 cm</td>
-          <td>4–8 kg</td>
-          <td>longo, musculoso e com bastante pelo</td>
-          <td>grande</td>
-        </tr>
-        <tr>
-          <th scope="row">Munchkin</th>
-          <td>15–20 cm.</td>
-          <td>2–4 kg</td>
-          <td>possui patas bem curtas, mas o corpo tem tamanho normal</td>
-          <td>pequeno a médio</td>
-        </tr>
-        <tr>
-          <th scope="row">Coelho</th>
-          <td>20–50 cm</td>
-          <td>1–8 kg</td>
-          <td>corpo compacto, orelhas longas e patas traseiras fortes</td>
-          <td>pequeno a médio</td>
-        </tr>
-        <tr>
-          <th scope="row">Hamster</th>
-          <td>7–18 cm</td>
-          <td>25–200 g</td>
-          <td>
-            corpo pequeno e arredondado, com bochechas onde armazena alimentos
-          </td>
-          <td>pequeno</td>
-        </tr>
-        <tr>
-          <th scope="row">Furão</th>
-          <td>40–60 cm (com a cauda)</td>
-          <td>0,7–2 kg</td>
-          <td>corpo comprido e flexível, patas curtas e muita agilidade</td>
-          <td>pequeno</td>
-        </tr>
-      </tbody>
-    </table>
-    <footer class="bg-body-tertiary py-4">
+
+    <main class="container py-5">
+      <div class="text-center mb-4">
+        <h1 class="fw-bold">Raças e Portes</h1>
+
+        <p class="text-body-secondary">
+          Conheça as características físicas de diferentes animais.
+        </p>
+      </div>
+
+      <div class="table-responsive">
+        <table
+          class="table table-striped table-hover table-bordered align-middle"
+        >
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">Raça</th>
+              <th scope="col">Altura</th>
+              <th scope="col">Peso</th>
+              <th scope="col">Características do corpo</th>
+              <th scope="col">Porte</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th scope="row">Golden Retriever</th>
+              <td>51–61 cm</td>
+              <td>25–34 kg</td>
+              <td>Forte, musculoso e bem proporcionado.</td>
+              <td><span class="badge text-bg-primary">Médio-grande</span></td>
+            </tr>
+
+            <tr>
+              <th scope="row">Schnauzer Miniatura</th>
+              <td>30–36 cm</td>
+              <td>5–9 kg</td>
+              <td>Corpo pequeno, compacto e robusto.</td>
+              <td><span class="badge text-bg-success">Pequeno</span></td>
+            </tr>
+
+            <tr>
+              <th scope="row">Schnauzer Standard</th>
+              <td>45–50 cm</td>
+              <td>14–23 kg</td>
+              <td>Corpo médio, forte e bem proporcionado.</td>
+              <td><span class="badge text-bg-info">Médio</span></td>
+            </tr>
+
+            <tr>
+              <th scope="row">Schnauzer Gigante</th>
+              <td>60–70 cm</td>
+              <td>25–48 kg</td>
+              <td>Corpo grande, musculoso e imponente.</td>
+              <td><span class="badge text-bg-danger">Grande</span></td>
+            </tr>
+
+            <tr>
+              <th scope="row">Maine Coon</th>
+              <td>25–40 cm</td>
+              <td>4–8 kg</td>
+              <td>Corpo longo, musculoso e com bastante pelo.</td>
+              <td><span class="badge text-bg-danger">Grande</span></td>
+            </tr>
+
+            <tr>
+              <th scope="row">Munchkin</th>
+              <td>15–20 cm</td>
+              <td>2–4 kg</td>
+              <td>Patas curtas e corpo de tamanho geralmente normal.</td>
+              <td><span class="badge text-bg-success">Pequeno</span></td>
+            </tr>
+
+            <tr>
+              <th scope="row">Coelho</th>
+              <td>20–50 cm</td>
+              <td>1–8 kg</td>
+              <td>Corpo compacto, orelhas longas e patas traseiras fortes.</td>
+              <td><span class="badge text-bg-info">Variável</span></td>
+            </tr>
+
+            <tr>
+              <th scope="row">Hamster</th>
+              <td>7–18 cm</td>
+              <td>25–200 g</td>
+              <td>
+                Corpo pequeno e arredondado, com bolsas nas bochechas para
+                armazenar alimentos.
+              </td>
+              <td><span class="badge text-bg-success">Pequeno</span></td>
+            </tr>
+
+            <tr>
+              <th scope="row">Furão</th>
+              <td>40–60 cm (com a cauda)</td>
+              <td>0,7–2 kg</td>
+              <td>
+                Corpo comprido e flexível, patas curtas e muita agilidade.
+              </td>
+              <td><span class="badge text-bg-success">Pequeno</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="small text-body-secondary mt-3">
+        As medidas são aproximadas e podem variar conforme a raça, o sexo e o
+        indivíduo.
+      </p>
+    </main>
+
+    <footer class="bg-body-tertiary py-4 mt-4">
       <div class="container text-center">
-        <h5>Lares & Patinhas</h5>
+        <h5 class="fw-bold">Lares & Patinhas</h5>
 
-        <p>Porque todo coração merece um lar. 🏡</p>
+        <p class="mb-2">Porque todo coração merece um lar.</p>
 
-        <small> Projeto Lares & Patinhas © 2026 </small>
+        <small class="text-body-secondary">
+          Projeto Lares & Patinhas © 2026
+        </small>
       </div>
     </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
